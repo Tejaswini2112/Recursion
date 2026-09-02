@@ -1,6 +1,6 @@
 # Approach - loop through each node of the grid, if it is a land and not visited, traverse that node using dfs/bfs
 # check all the four directions of the node while traversing(left, right, up, down), if you find a land that is not visited traverse it
-# TC - O(n^2), SC - O(n^2)
+# TC - O(n*m), SC - O(n*m)
 
 def numIslands(grid):
     n = len(grid)
